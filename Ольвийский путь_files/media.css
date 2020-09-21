@@ -1,0 +1,2146 @@
+
+
+@media (max-width: 999px) {
+    .trip-filter .map {
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+        padding: 50px 50px 55px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .trip-filter .map {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 432px;
+        padding: 75px 40px 95px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer .footer-bottom {
+        width: 1106px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .dropdown-menu {
+        border-radius: 0;
+        background: #4F5565;
+        border: none;
+        padding: 5px 0;
+        margin-top: 0;
+        min-width: 100%;
+    }
+
+    .navbar .dropdown-item {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .navbar .dropdown-item:focus, .dropdown-item:hover {
+        background: #FFC107;
+        color: #FFFFFF;
+    }
+
+    .nav-item {
+        height: 60px;
+        align-items: center;
+        display: flex;
+        padding: 0;
+    }
+
+    .nav-item.active, .nav-item:hover, .nav-item.show {
+        background: #FFC107;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+        color: #F2F2F2;
+    }
+
+    .navbar .dropdown-item.active, .dropdown-item:active {
+        background: #FFC107;
+    }
+}
+
+@media (max-width: 991px){
+    .nav-item .dropdown-menu {
+        display: block;
+        background: none;
+    }
+
+    .navbar .dropdown-toggle::after {
+        display: none;
+    }
+
+    .navbar .dropdown-item {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0;
+    }
+
+    .navbar .dropdown-menu {
+        padding: 0 0 0 60px;
+        margin-top: -4px;
+        margin-bottom: 6px;
+        border: none;
+    }
+
+    .navbar .mobile-top {
+        padding: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        right: 0;
+        border: none;
+        padding: 0;
+        align-self: center;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .dropdown-divider {
+        display: block;
+        margin: 0;
+        background: #FFC107;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 6px 0;
+    }
+
+    .navbar-nav {
+        padding: 14px 60px;
+    }
+
+    .navbar-toggler {
+        margin: 28px 0;
+        outline: none!important;
+    }
+
+    .navbar-toggler.collapsed {
+        margin: 0;
+    }
+
+    .navbar-toggler .close {
+        display: block;
+        opacity: 1;
+    }
+
+    .navbar-toggler.collapsed .close {
+        display: none;
+    }
+
+    .navbar-toggler .burger {
+        display: none;
+    }
+
+    .navbar-toggler.collapsed .burger {
+        display: block;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+        color: #FFC107;
+    }
+
+    .dropdown-item.active, .dropdown-item:active {
+        background: none;
+        color: #FFC107;
+    }
+}
+
+
+
+
+/* IPAD */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .trip-filter {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+        padding: 0 2px;
+    }
+
+    .trip-filter h2 {
+        margin-bottom: 80px;
+    }
+
+    .type-tiles a {
+        padding: 20px 17px;
+    }
+
+    .index-trips {
+        padding: 35px 0 80px;
+    }
+
+    .index-trips .h2 {
+        padding: 0 50px;
+        margin-bottom: 30px;
+    }
+
+    .index-trips .arrows {
+        display: none;
+    }
+
+    .carousel__container {
+        overflow-x: scroll;
+    }
+
+    .index-trips .trips-list {
+        width: fit-content!important;;
+        margin: 0;
+        padding: 0 37px;
+    }
+
+    .index-trips .trips {
+        padding: 0;
+    }
+
+    .dropdown-divider {
+        display: none;
+    }
+
+    .navbar .navbar-nav {
+        margin-bottom: 50px;
+    }
+
+    header .top {
+        width: 100%;
+        padding: 20px 50px;
+    }
+
+    header .title {
+        width: 100%;
+        padding: 0 50px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .index-header .title {
+        margin: 120px 0 13px;
+    }
+
+    header.single-banner .title {
+        margin: 120px 0 100px;
+    }
+
+    .index-header .title h1 {
+        font-size: 70px;
+    }
+
+    header .links {
+        padding: 0 50px;
+    }
+
+    header .links .link {
+        min-width: 133px;
+        margin-left: 25px;
+    }
+
+    .category-tours {
+        width: 100%;
+        padding: 30px 50px 90px;
+    }
+
+    .category-tours .breadcrumbs {
+        margin-bottom: 40px;
+    }
+
+    .category-tours .tour {
+        /*height: 350px;*/
+    }
+
+    .category-tours .tour .image {
+        width: 235px;
+        /*height: 350px;*/
+        min-width: 235px;
+        padding: 30px;
+    }
+
+    .category-tours .tour .content {
+        padding: 40px 30px 25px 17px;
+    }
+
+    .tour-view {
+        width: 100%;
+    }
+
+    .tour-view > .top {
+        padding-top: 30px;
+    }
+
+    .tour-view .tour-info {
+        margin: -95px 20px 0 15px;
+        width: 400px;
+        height: auto;
+        padding: 50px 35px 20px;
+    }
+
+    .tour-view .tour-info .short-description {
+        font-size: 14px;
+    }
+
+    .breadcrumbs {
+        line-height: 22px;
+    }
+
+    .tour-view .breadcrumbs {
+        margin: 0 50px 40px;
+        max-width: 500px;
+    }
+
+    .tour-view > .top .description {
+        margin: 0 50px 40px;
+    }
+
+    .tour-wrapper {
+        background: none;
+    }
+
+    .tour-view .tour-plan {
+        margin: 0 20px 70px;
+        padding: 60px 35px 20px;
+    }
+
+    .tour-view .tour-plan .day .day-number {
+        min-width: 200px;
+    }
+
+    .tour-view .tour-plan .day .day-number hr {
+        width: 65px;
+    }
+
+    .tour-view .tour-plan .day .image {
+        width: 200px;
+    }
+
+    .tour-view .tour-plan .day > hr {
+        margin: 0 0 20px 140px;
+    }
+
+    .tour-view .article-link {
+        margin-bottom: 70px;
+    }
+
+    .tour-cost {
+        margin-bottom: 70px;
+        width: 100%;
+        padding: 70px 50px;
+    }
+
+    .tour-cost .description .included {
+        margin-right: 25px;
+    }
+
+    .tour-pdf {
+        margin-bottom: 70px;
+    }
+
+    header .banners .banner .link {
+        padding: 0 50px;
+    }
+
+    .tour-wrapper .photos {
+        overflow: hidden;
+        width: 100%;
+        padding-left: 30px;
+        margin-bottom: 60px;
+    }
+
+    .tour-wrapper .photos .top {
+        margin-right: 30px;
+    }
+
+    .tour-wrapper .photos .gallery {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        margin: 0 -16px -16px 0;
+    }
+
+    .tour-wrapper .photos .gallery-item {
+        flex: 0 0 253px;
+        margin: 0 16px 16px 0;
+    }
+
+    .footer-content .contacts .numbers {
+        flex-direction: column;
+    }
+
+    .footer .social-button {
+        margin-right: 15px;
+    }
+
+    .footer .social {
+        margin-right: -15px;
+    }
+
+    footer .banner-header {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    footer .banner-content {
+        padding: 50px;
+    }
+
+    footer .footer {
+        padding: 0 50px;
+    }
+
+    .footer .footer-bottom {
+        padding-bottom: 60px;
+    }
+
+    .footer .footer-bottom p {
+        line-height: 28px;
+    }
+
+    footer .footer-content {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .schedule-wrapper {
+        background-position: center 60px;
+        background-size: 100%;
+    }
+
+    .schedule {
+        width: 100%;
+        overflow: hidden;
+        padding: 0 50px;
+    }
+
+    .schedule .breadcrumbs {
+        margin: 30px 0 70px;
+    }
+
+    .schedule .type-tiles {
+        margin-bottom: 50px;
+    }
+
+    .schedule .schedule-table {
+        margin-bottom: 110px;
+        margin-left: -22px;
+    }
+
+    .schedule .schedule-table thead {
+        font-size: 12px;
+    }
+
+    .schedule .schedule-table tbody tr:last-child, .schedule .schedule-table tbody tr:first-child {
+        display: none;
+    }
+
+    .schedule .schedule-table thead th .title {
+        border: none;
+        box-shadow: none;
+        background: none;
+        padding: 0;
+    }
+
+    .schedule .schedule-table thead .without-filter {
+        padding: 9px;
+    }
+
+    .schedule .schedule-table thead th .title.selected {
+        background: none;
+        color: inherit;
+    }
+
+    .schedule .schedule-table thead th {
+        height: 47px;
+    }
+
+    .schedule .schedule-table thead th .select {
+        display: none;
+    }
+
+    .schedule .schedule-table thead th div {
+        padding: 15px 12px;
+        text-align: left;
+    }
+
+    .schedule .schedule-table tbody td.price {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .category-tours .tour .bottom {
+        padding: 10px 25px 0;
+    }
+
+    .category-tours .tour .bottom > span {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts-wrapper .breadcrumbs {
+        margin: 30px;
+        padding: 0 50px;
+    }
+
+    .contacts-wrapper .contacts {
+        width: 100%;
+        padding: 80px 50px;
+    }
+
+    .contacts-wrapper .contacts::before {
+        top: 81px;
+    }
+
+    .contacts-wrapper .contacts .send-request-form {
+        flex-grow: 1;
+        margin-left: 45px;
+    }
+
+    .contacts-wrapper .contacts .send-request-form .form-control {
+        width: 100%;
+    }
+
+    .contacts-wrapper {
+        margin: 0;
+    }
+
+    .contacts-wrapper .contacts .request-result {
+        margin-left: 45px;
+    }
+
+    .contacts-wrapper .contacts .request-result .text {
+        width: auto;
+    }
+
+    .mobile-schedule-form {
+        margin-bottom: 30px;
+        display: flex;
+    }
+
+    .schedule .schedule-table thead th {
+        background-color: rgba(240, 240, 240, 1);
+    }
+
+    .team-top {
+        padding: 0 50px;
+    }
+
+    .team-top .description {
+        margin: 35px 0 50px;
+    }
+
+    .team-list {
+        margin-right: -15px;
+        padding: 0 25px;
+    }
+
+    .team-list .guide {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .kayaking-background {
+        background: none;
+    }
+
+    .kayaking-view .top {
+        padding: 0 50px;
+    }
+
+    .kayaking-google-map {
+        margin-right: -30px;
+        width: 370px;
+        padding: 50px 35px 45px;
+        margin-left: 20px;
+    }
+
+    .kayaking-google-map iframe {
+        min-height: 285px;
+    }
+
+
+    .kayaking-google-map .waves {
+        display: none;
+    }
+
+    .kayaking-view .top .description {
+        margin-top: 25px;
+    }
+
+    .kayaking-view .top .description div {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .kayaking-info {
+        max-width: 620px;
+        margin-bottom: 30px;
+    }
+
+    .kayaking-info .details {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .kayaking-info .details .detail {
+        flex-direction: row;
+        align-items: center;
+        margin: 0 0 60px 0;
+    }
+
+    .kayaking-info .details .detail .image {
+        height: 100%;
+        margin-bottom: 0;
+        width: 190px;
+        flex-shrink: 0;
+    }
+
+    .kayaking-info .details .detail .text {
+        margin-left: 60px;
+        text-align: left;
+    }
+
+    .kayaking-info .details .detail .text div {
+        line-height: 26px;
+    }
+
+    .kayaking-prices {
+        padding: 0 50px;
+        margin-bottom: 90px;
+    }
+
+    .kayaking-prices .price-row .type {
+        padding: 0 25px;
+    }
+
+    .kayaking-prices .head .empty-head, .kayaking-prices .price-row .type {
+        flex: 1 0 258px;
+    }
+
+    .kayaking-prices .price-row .type img {
+        margin-right: 25px;
+    }
+
+    .kayaking-view .kyaking-map {
+        padding: 0 50px;
+    }
+
+    .kayaking-view .kyaking-map a {
+        margin: 0 0 0 30px;
+    }
+
+    .kayaking-view .kyaking-map a img {
+        max-width: 320px;
+    }
+
+    .kayaking-view .kyaking-map .text {
+        margin-top: 50px;
+    }
+
+    .kayaking-view .kyaking-map::before {
+        content: none;
+    }
+
+    .reviews-view {
+        padding: 0 50px;
+    }
+
+    .reviews-view .reviews {
+        margin: 50px 0 90px;
+    }
+
+    .reviews-view .reviews .review {
+        margin-bottom: 50px;
+    }
+
+    .reviews-view .reviews .review .photo a {
+        width: 235px;
+    }
+
+    .reviews-view .reviews .review .photo .waves img {
+        left: -270px;
+        bottom: -10px;
+    }
+
+    .schedule form .clear-button {
+        height: auto;
+    }
+
+    .schedule > .clear-button {
+        display: none;
+    }
+
+    .shop-view .breadcrumbs {
+        padding: 0 50px;
+    }
+
+    .shop-view .shop-category {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 0 50px;
+    }
+
+    .shop-view .shop-category .products {
+        margin-right: -15px;
+        margin-bottom: -30px;
+    }
+
+    .shop-view .shop-category .product {
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    .shop-view {
+        margin-bottom: 60px;
+    }
+
+    .article-wrapper .breadcrumbs {
+        padding: 0 50px;
+        margin-bottom: 40px;
+    }
+
+    .article-wrapper .article-top h1 {
+        margin-bottom: 35px;
+    }
+
+    .article-wrapper .article-top .info {
+        padding-left: 38px;
+        margin-right: 0;
+    }
+
+    .article-wrapper .article-body {
+        padding: 0 50px;
+        margin-bottom: 50px;
+    }
+
+    .article-wrapper .article-body .article-text {
+        margin-bottom: 25px;
+    }
+
+    .article-wrapper .article-pagination {
+        padding-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .articles-wrapper .breadcrumbs {
+        padding: 0 50px;
+        margin-bottom: 40px;
+    }
+
+    .articles-wrapper .articles {
+        margin-bottom: 45px;
+    }
+
+    .articles-wrapper .articles .article:first-child {
+        width: 100%;
+        margin: 0 120px 50px;
+    }
+
+    .articles-wrapper .articles .article {
+        margin: 0 50px 45px;
+    }
+
+    .articles-wrapper .article .image {
+        min-width: 190px;
+        height: 174px;
+    }
+
+    .articles-wrapper .articles .article .arrow {
+        right: 0;
+        bottom: 29px;
+    }
+
+    .articles-wrapper .articles-filter {
+        order: 0;
+        width: 100%;
+        margin: 0 120px 45px;
+    }
+
+    .articles-filter > .title {
+        display: block;
+        text-align: center;
+        padding-right: 60px;
+    }
+
+    .filter-section {
+        padding: 25px 18px 5px;
+        background-color: white;
+        margin: 0;
+    }
+
+    .articles-filter .filter-section:first-child {
+        border-bottom: 1px solid #FFC107;
+    }
+
+    .filter-section .title {
+        display: none;
+    }
+
+    .articles-wrapper .articles .article {
+        border: 1px solid #DADADA;
+    }
+
+    .articles-wrapper .articles .article > div {
+        border: none;
+    }
+
+    .article-wrapper .random-articles {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding: 0 50px;
+    }
+
+    .article-wrapper .random-article {
+        margin-right: 0;
+        max-width: 100%;
+        flex-direction: row;
+        border: 1px solid #DADADA;
+        padding-left: 10px;
+        padding-top: 0;
+        margin-bottom: 45px;
+    }
+
+    .article-wrapper .random-article .body {
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    .article-wrapper .random-article .tag {
+        position: absolute;
+        top: -17px;
+        left: -1px;
+    }
+
+    .article-wrapper .random-article .image {
+        min-height: 100px;
+        margin-bottom: 0;
+        min-width: 190px;
+        height: 175px;
+        margin-left: 20px;
+    }
+
+    .article-wrapper .random-article:nth-child(2) {
+        flex-direction: row;
+    }
+
+    .article-wrapper .random-article .body .title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .article-wrapper .random-article .description {
+        display: block;
+        font-size: 14px;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .navbar > div {
+        width: 1110px;
+    }
+
+    .tour-wrapper .photos .gallery-item:hover {
+        border-radius: 3px;
+        background: #FFC107;
+    }
+
+    .tour-wrapper .photos .gallery-item:hover::after {
+        content: "";
+        background-image: url(../img/gallery-hover.png);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .tour-wrapper .photos .gallery-item:hover img {
+        opacity: 0.25;
+    }
+
+    .footer-content .contacts {
+        width: 382px;
+    }
+
+    .articles-filter .collapse {
+        display: block;
+    }
+
+    .articles-filter > .title {
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    .category-tours .tour .bottom > span {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .navbar .mobile-social {
+        display: block;
+    }
+
+    .navbar .mobile-social {
+        flex-wrap: wrap;
+        padding: 40px 60px 45px;
+        display: flex;
+    }
+
+    .navbar .mobile-social a {
+        align-items: center;
+        display: flex;
+        background: #FFC107;
+        justify-content: center;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        width: 36px;
+        height: 36px;
+        padding: 9px;
+        margin-right: 18px;
+        margin-bottom: 15px;
+    }
+
+    .navbar .mobile-social a.viber-channel {
+        background: #9665C4;
+        border: none;
+        margin: 0;
+        min-width: fit-content;
+        padding: 11px 13px;
+    }
+
+    .navbar .mobile-top {
+        padding: 10px 20px;
+    }
+
+    .navbar .mobile-social img {
+        max-width: 16px;
+        max-height: 16px;
+    }
+
+    header .top {
+        display: none;
+    }
+
+    header .title {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        min-height: 260px;
+        padding: 50px 20px;
+        justify-content: center;
+    }
+
+    header .tour-title h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .index-header .title {
+        margin: 70px 0 60px;
+        padding: 0 25px;
+        min-height: auto;
+    }
+
+    header.single-banner .title {
+        margin: 80px 0 90px;
+    }
+
+    header .banners .banner .link {
+        padding: 0 25px;
+    }
+
+    header h1 {
+        margin-bottom: 0;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .index-header .title h1 {
+        line-height: 60px;
+        font-size: 12.5vw;
+        text-align: center;
+    }
+
+    header h1 .small {
+        display: none;
+    }
+
+    .index-header .title h1 .small {
+        display: block;
+        line-height: 40px;
+        letter-spacing: 2px;
+        font-size: 8vw;
+        margin-top: 0;
+    }
+
+    header .links {
+        display: none;
+    }
+
+    header .request-button {
+        align-self: center;
+        width: 200px;
+        display: block;
+        margin-bottom: 70px;
+    }
+
+    header .down-arrows {
+        display: none;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    footer .banner-header {
+        font-size: 9.5vw;
+        line-height: 50px;
+    }
+
+    footer .banner-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    footer .footer-content {
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+    }
+
+    footer .footer-content .links {
+        padding: 0 30px;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .footer .footer-bottom a {
+        display: none;
+    }
+
+    footer .banner {
+        padding: 80px 20px;
+        height: auto;
+    }
+
+    .footer > a {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .footer-content .contacts {
+        border-top: 2px solid rgba(255, 255, 255, 0.2);
+        padding: 15px 30px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-content .contacts > div {
+        margin-bottom: 35px;
+    }
+
+    .footer .footer-bottom {
+        padding: 25px 20px 40px;
+    }
+
+    .footer .footer-bottom p {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .footer-content .contacts p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-content .contacts .social {
+        margin-bottom: 35px;
+        margin-right: -25px;
+    }
+
+    footer .footer {
+        padding-top: 50px;
+    }
+
+    .footer-content .categories {
+        margin: 0 0 30px 30px;
+        font-size: 16px;
+        flex: 1 1 140px;
+    }
+
+    .footer-content p {
+        margin-bottom: 8px;
+        line-height: 28px;
+    }
+
+    .footer-content .categories ul {
+        line-height: 28px;
+    }
+
+    .footer-content .menu {
+        margin-bottom: 20px;
+        font-size: 16px;
+        flex: 1 1 100px;
+    }
+
+    .footer-content .menu ul {
+        line-height: 18px;
+    }
+
+    .footer-content .menu ul li {
+        margin-bottom: 16px;
+    }
+
+    .trip-filter {
+        padding: 60px 20px 20px;
+        background-image: url(../img/world-map.png);
+        background-size: 110%;
+        background-repeat: no-repeat;
+        background-position: 25% 40px;
+    }
+
+    .type-tiles {
+        margin-right: -14px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        align-self: center;
+    }
+
+    .type-tiles img {
+        max-width: 43px;
+        width: auto;
+        max-height: 43px;
+    }
+
+    .type-tiles a {
+        font-size: 16px;
+        height: 112px;
+        padding: 20px 10px 18px;
+        width: 29%;
+        margin: 0 12px 12px 0;
+        max-width: 103px;
+    }
+
+    .type-tiles span {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .index-trips {
+        padding: 25px 0 40px;
+    }
+
+    .index-trips .trips {
+        padding: 0;
+    }
+
+    .index-trips .h2 {
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+
+    .index-trips .h2 h2 {
+        padding: 0 20px;
+    }
+
+    .index-trips .arrows {
+        display: none;
+    }
+
+    .carousel__container {
+        overflow: scroll;
+    }
+
+    .index-trips .trips-list {
+        margin: 0;
+        padding: 0 7px;
+        width: fit-content!important;;
+    }
+
+    .trip-filter .map {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background: none;
+    }
+
+    .category-tours {
+        width: 100%;
+        padding: 30px 20px 60px;
+    }
+
+    .category-tours .breadcrumbs {
+        margin-bottom: 40px;
+    }
+
+    .category-tours .tour {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .category-tours .tour .image {
+        height: 220px;
+        width: 100%;
+        position: absolute;
+        margin: 0 -20px;
+        padding: 50px 40px;
+        justify-content: flex-start;
+    }
+
+    .category-tours .tour .content {
+        margin-top: 220px;
+        padding: 30px 20px 25px;
+    }
+
+    .category-tours .tour .content .arrow {
+        right: 0;
+        top: -38px;
+    }
+
+    .category-tours .tour .content .title {
+        margin: 0;
+    }
+
+    .tour-cost h2 {
+        text-align: center;
+    }
+
+    .category-tours .tour .text {
+        margin: 14px 0 20px;
+    }
+
+    .category-tours .tour .bottom {
+        padding: 10px 5px 0;
+    }
+
+    .tour-wrapper {
+        background: none;
+    }
+
+    .tour-view {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tour-view .tour-info {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: -20px 0 30px;
+        padding: 40px 20px 20px;
+    }
+
+    .tour-view .tour-info .short-description img {
+        margin-right: 25px;
+    }
+
+    .tour-view .tour-info hr {
+        margin: 25px 0 20px;
+    }
+
+    .breadcrumbs {
+        display: none;
+    }
+
+    .tour-view > .top .description {
+        min-height: auto;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .tour-view .tour-plan {
+        margin-bottom: 60px;
+        padding: 40px 20px 20px;
+    }
+
+    .tour-view .article-link {
+        margin-bottom: 60px;
+        padding: 0 30px;
+    }
+
+    .tour-view .article-link h2 {
+        line-height: 60px;
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .tour-cost {
+        width: 100%;
+        padding: 50px 20px 40px;
+        margin-bottom: 70px;
+    }
+
+    .tour-cost .description {
+        flex-direction: column;
+    }
+
+    .tour-cost .description .included {
+        margin-bottom: 35px;
+        margin-right: 0;
+    }
+
+    .tour-cost .description div {
+        width: 100%;
+    }
+
+    .tour-cost .description div > span {
+        margin-bottom: 20px;
+    }
+
+    .tour-view .tour-plan .day .image {
+        display: none;
+    }
+
+    .tour-view .tour-plan .day .top {
+        margin-bottom: 12px;
+    }
+
+    .tour-view .tour-plan .day .day-number {
+        min-width: auto;
+        white-space: nowrap;
+        margin-right: 20px;
+    }
+
+    .tour-view .tour-plan .day .day-number hr {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .tour-view .tour-plan .day .content {
+        margin-bottom: 10px;
+    }
+
+    .tour-view .tour-plan .day > hr {
+        margin: 0 0 30px;
+    }
+
+    .tour-view > .top {
+        padding: 0 20px;
+    }
+
+    .tour-view .tour-plan h2 {
+        margin-bottom: 25px;
+    }
+
+    .tour-pdf > div {
+        background-size: 115vw;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100vw;
+        width: 100vw;
+    }
+
+    .tour-pdf {
+        margin-bottom: 70px;
+    }
+
+    .tour-wrapper .photos {
+        overflow: hidden;
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 60px;
+    }
+
+    .tour-wrapper .photos .top {
+        margin-right: 20px;
+    }
+
+    .tour-wrapper .photos .top h2 {
+        margin-right: 15px;
+    }
+
+    .tour-wrapper .photos .gallery {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        margin: 0 -16px -16px 0;
+    }
+
+    .tour-wrapper .photos .gallery-item {
+        flex: 0 0 253px;
+        margin: 0 15px 15px 0;
+    }
+
+    .schedule-wrapper {
+        background-position: 5% 135px;
+        background-size: 110%;
+    }
+
+    .schedule {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .schedule .type-tiles {
+        margin: 50px 0 25px;
+        padding: 0 6px 0 20px;
+    }
+
+    .schedule .schedule-table {
+        margin-bottom: 50px;
+        overflow: scroll;
+        background: none;
+        padding: 20px;
+    }
+
+    .footer .social-button {
+        width: 49px;
+        height: 49px;
+    }
+
+    .footer .social-button img {
+        max-width: 23px;
+        max-height: 23px;
+    }
+
+    .mobile-schedule-form {
+        display: flex;
+    }
+
+    .schedule .schedule-table tbody td:nth-child(2) {
+        font-weight: bold;
+        color: #353B50;
+    }
+
+    .schedule .schedule-table thead th {
+        background-color: rgba(240, 240, 240, 1);
+    }
+
+    .schedule .schedule-table thead th .select {
+        display: none;
+    }
+
+    .schedule .schedule-table table {
+        width: 620px;
+    }
+
+    .schedule .schedule-table tbody tr:last-child, .schedule .schedule-table tbody tr:first-child {
+        display: none;
+    }
+
+    .schedule .schedule-table thead {
+        font-size: 11px;
+    }
+
+    .schedule .schedule-table tbody td.price {
+        font-size: 14px;
+    }
+
+    .schedule .schedule-table thead th .title {
+        border: none;
+        box-shadow: none;
+        background: none;
+        padding: 12px;
+    }
+
+    .schedule .schedule-table thead .without-filter {
+        padding: 12px;
+    }
+
+    .schedule .schedule-table thead th .title.selected {
+        background: none;
+        color: inherit;
+    }
+
+    .schedule .schedule-table thead th {
+        height: 47px;
+    }
+
+    .schedule .schedule-table thead th div {
+        text-align: left;
+    }
+
+    .schedule .schedule-table tbody td {
+        padding: 15px 12px;
+    }
+
+    .footer-content .contacts .numbers {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .tour-view .tour-info .data div {
+        flex-direction: column;
+    }
+
+    .blueimp-gallery > .indicator > li {
+        width: 40px;
+        height: 25px;
+    }
+
+    .request-modal {
+        padding: 0;
+    }
+
+    .modal-dialog {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .send-request-form .form-control {
+        width: 100%;
+    }
+
+    .modal-body {
+        padding: 10px 20px 80px;
+    }
+
+    .modal-body .result {
+        width: auto;
+    }
+
+    .contacts-wrapper {
+        margin-bottom: 0;
+    }
+
+    .contacts-wrapper .contacts {
+        flex-direction: column;
+        padding: 50px 20px 100px;
+        width: 100%;
+    }
+
+    .contacts-wrapper .contacts > div:first-child {
+        margin-bottom: 40px;
+    }
+
+    .contacts-wrapper .contacts::before {
+        top: 0;
+    }
+
+    .big-button {
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .team-wrapper {
+        padding: 50px 20px;
+    }
+
+    .team-top .description {
+        margin: 0 0 50px;
+    }
+
+    .team-list {
+        margin: 0;
+    }
+
+    .team-list .guide {
+        margin: 0 0 30px;
+        width: 100%;
+        max-width: 350px;
+        padding: 40px 20px;
+    }
+
+    .team-list .guide .image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-list .guide .image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-list .guide .social {
+        margin-top: 30px;
+    }
+
+    header .banners .banner {
+        display: none;
+    }
+
+    header .banners {
+        background-size: cover;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .kayaking-view {
+        overflow: hidden;
+    }
+
+    .kayaking-background {
+        background: none;
+        margin-bottom: 50px;
+    }
+
+    .kayaking-view .top {
+        flex-flow: wrap;
+        display: flex;
+    }
+
+    .kayaking-google-map {
+        width: 100%;
+        float: none;
+        margin: 0;
+        order: 2;
+        padding: 20px;
+        height: fit-content;
+    }
+
+    .kayaking-google-map .waves img {
+        right: -145px;
+        top: 26px;
+    }
+
+    .kayaking-google-map iframe {
+        min-height: 300px;
+    }
+
+    .kayaking-view .top .description {
+        order: 1;
+        margin: 0;
+        padding: 50px 20px;
+    }
+
+    .kayaking-info .details {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .kayaking-info .details .detail {
+        flex-direction: row;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .kayaking-info .details .detail .image {
+        height: auto;
+        margin: 0 30px 0 0;
+        width: 100px;
+        flex-shrink: 0;
+    }
+
+    .kayaking-info .details .detail:first-child .image img {
+        transform: rotate(90deg);
+        max-width: 150px;
+    }
+
+    .kayaking-info .details .detail:nth-child(2) .image img {
+        max-width: 100px;
+    }
+
+    .kayaking-info .details .detail .text {
+        text-align: left;
+    }
+
+    .kayaking-info .details .detail .text div {
+        line-height: 26px;
+    }
+
+    .kayaking-prices {
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .kayaking-prices .head {
+        display: none;
+    }
+
+    .kayaking-prices .price-row {
+        flex-direction: column;
+        padding: 20px 0 0;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .kayaking-view .kyaking-map {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .kayaking-view .kyaking-map a {
+        margin: 0;
+        float: none;
+        order: 2;
+    }
+
+    .kyaking-map .description {
+        order: 1;
+    }
+
+    .kayaking-prices .price-row .type {
+        flex: 0 0 0;
+        padding: 0 20px;
+    }
+
+    .kayaking-view .kyaking-map .kayaking-title {
+        margin: 0;
+    }
+
+    .kayaking-view .kyaking-map .text {
+        margin: 12px 0 30px;
+    }
+
+    .kayaking-view .kyaking-map a img {
+        width: 100%;
+    }
+
+    .kayaking-prices .price-row .type img {
+        margin-right: 30px;
+        max-width: 36px;
+        max-height: 36px;
+    }
+
+    .kayaking-prices .price-row .prices {
+        flex: 0 0 0;
+        flex-direction: column;
+    }
+
+    .kayaking-prices .price-row .sub-head {
+        display: block;
+        flex: 1 1 130px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 20px;
+        color: #0F172F;
+    }
+
+    .kayaking-prices .price-row .prices .price {
+        flex: 1 1 185px;
+        padding: 20px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .kayaking-prices .kayaking-title {
+        margin-bottom: 20px;
+    }
+
+    .kayaking-title {
+        background-size: 60px;
+        padding-left: 80px;
+    }
+
+    .kayaking-info {
+        margin-bottom: 10px;
+    }
+
+    .kayaking-prices .price-row .prices div:last-child .price {
+        border: none;
+    }
+
+    .kayaking-prices .price-row:last-child {
+        border: none;
+    }
+
+    .kayaking-prices .table {
+        padding: 0;
+    }
+
+    .kayaking-view .kyaking-map::before {
+        content: none;
+    }
+
+    .reviews-view .reviews .review {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .reviews-view .reviews .review .photo {
+        float: right;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .reviews-view .reviews .review .photo a {
+        width: 120px;
+        height: 140px;
+    }
+
+    .reviews-view .reviews .review .photo .waves {
+        display: none;
+    }
+
+    .reviews-view .reviews .review .content {
+        display: block;
+    }
+
+    .reviews-view .reviews {
+        margin: 0;
+        padding: 50px 20px;
+    }
+
+    .reviews-view .reviews .review .title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .reviews-view .reviews .review .text {
+        line-height: 18px;
+    }
+
+    .schedule form .clear-button {
+        height: auto;
+    }
+
+    .schedule > .clear-button {
+        display: none;
+    }
+
+    .schedule .clear-button a {
+        width: 100%;
+        text-align: center;
+        background-position: center left 9%;
+        padding: 9px 9% 9px 24%;
+    }
+
+    .shop-view .shop-category > .title {
+        margin: 50px 0 30px;
+    }
+
+    .shop-view .shop-category .products {
+        margin-bottom: -20px;
+        flex-wrap: wrap;
+    }
+
+    .shop-view .shop-category .product {
+        margin-bottom: 20px;
+        min-width: 157px;
+        max-width: calc(100% / 2 - 10px);
+        flex: 1 1 157px;
+        padding-bottom: 30px;
+    }
+
+    .shop-view .shop-category .product .photo {
+        margin-bottom: 15px;
+    }
+
+    .shop-view .shop-category .product .photo a {
+        height: 170px;
+    }
+
+    .shop-view .shop-category .product .info {
+        padding: 0 10px;
+    }
+
+    .shop-view .shop-category .product .info .price {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .shop-view .shop-category .product .info .title {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .shop-view .shop-category .product .info .description {
+        margin-bottom: 10px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .shop-view .shop-category .product .button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .shop-view .shop-category .product .button button {
+        min-width: 100px;
+        width: 100%;
+    }
+
+    .shop-view .shop-category {
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .shop-view {
+        margin-bottom: 60px;
+    }
+
+    .article-wrapper .article-top h1 {
+        margin-top: 40px;
+        padding: 0 20px;
+        font-size: 34px;
+        line-height: 41px;
+        margin-bottom: 20px;
+    }
+
+    .article-wrapper .article-top .info {
+        margin-bottom: 20px;
+        margin-right: 0;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-wrapper .article-top .info > span {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .article-wrapper .article-top .info > span.dot {
+        display: none;
+    }
+
+    .article-wrapper .article-image {
+        height: 240px;
+    }
+
+    .article-wrapper .article-body {
+        margin: 30px 0;
+        padding: 0 20px;
+    }
+
+    .article-wrapper .article-body .article-text {
+        font-size: 18px;
+        line-height: 28px;
+        color: #292929;
+    }
+
+    .article-wrapper .article-body .article-tags {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article-wrapper .article-body .article-tags a {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .article-wrapper .article-pagination {
+        padding-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .article-wrapper .random-articles {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    .article-wrapper .random-article {
+        margin-right: 0;
+        max-width: 100%;
+        flex-direction: row;
+        border: 1px solid #DADADA;
+        padding-left: 10px;
+        padding-top: 25px;
+        margin-bottom: 45px;
+    }
+
+    .article-wrapper .random-article .body {
+        margin-bottom: 15px;
+    }
+
+    .article-wrapper .random-article .tag {
+        position: absolute;
+        top: -17px;
+        left: -1px;
+    }
+
+    .article-wrapper .random-article .image {
+        min-width: 88px;
+        max-height: 120px;
+        height: 100%;
+        min-height: 100px;
+        margin-bottom: 0;
+        margin-left: 10px;
+    }
+
+    .article-wrapper .random-article:nth-child(2) {
+        flex-direction: row;
+    }
+
+    .articles-wrapper .articles-filter {
+        order: 0;
+        width: 100%;
+        margin: 0 10px 45px;
+    }
+
+    .articles-filter .filter-section:first-child {
+        border-bottom: 1px solid #FFC107;
+    }
+
+    .filter-section {
+        padding: 20px 18px 5px;
+        background-color: white;
+        margin: 0;
+    }
+
+    .articles-wrapper .articles {
+        margin-bottom: 0;
+        padding: 30px 10px 5px;
+    }
+
+    .articles-wrapper .articles .article:first-child {
+        width: 100%;
+        margin: 0 10px 25px;
+    }
+
+    .articles-wrapper .article:first-child .image {
+        min-width: 100%;
+        min-height: 220px;
+    }
+
+    .articles-wrapper .articles .article {
+        border: 1px solid #DADADA;
+        padding-left: 10px;
+        margin-bottom: 45px;
+    }
+
+    .articles-wrapper .articles .article > div {
+        border: none;
+    }
+
+    .articles-wrapper .article .image {
+        min-width: 88px;
+        margin-left: 10px;
+        height: 120px;
+        align-self: center;
+        border-radius: 3px;
+    }
+
+    .filter-section .title {
+        display: none;
+    }
+
+    .filter-section .authors {
+        padding-left: 0;
+    }
+
+    .article-wrapper .random-article .body .title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .article-wrapper .random-article .description {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1046px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 14px;
+    }
+
+    .navbar > div {
+        width: 100%;
+    }
+    .navbar .navbar-nav {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    header .top {
+        padding: 20px 50px;
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar-toggleable-md .navbar-collapse {
+        flex-grow: 1;
+    }
+
+    .navbar-toggleable-md .navbar-nav {
+        flex-grow: 1;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 8px;
+    }
+
+    header .links {
+        padding: 0 50px;
+    }
+
+    .tour-wrapper .photos {
+        width: auto;
+        min-width: 922px;
+    }
+
+    .articles-wrapper .articles {
+        max-width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .articles-wrapper .articles .article:first-child {
+        width: 515px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1120px) {
+    .tour-view .tour-info {
+        margin-right: -40px;
+    }
+
+    .kayaking-view .kayaking-google-map {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1120px) and (max-width: 1210px) {
+    .kayaking-view .kayaking-google-map {
+        margin-right: -40px;
+    }
+}
+
+@media (max-width: 374px) {
+    .shop-view .shop-category .product {
+        max-width: 100%;
+    }
+
+    .shop-view .shop-category .product .button button {
+        width: 200px;
+    }
+}

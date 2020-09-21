@@ -1,0 +1,45 @@
+$(document).ready(function () {
+    var clicked = false;
+    $('.send-request-button').on('click', function(e) {
+        clicked = true;
+        $(this).parent().yiiActiveForm('validate', true);
+    });
+
+    $('.request-form').on('afterValidate', function (e, m, eattr) {
+        e.preventDefault();
+        if(eattr.length === 0 && $(this).find('.has-error').length === 0 && $(this).find('.send-request-button').data('disabled') !== 'disabled'
+            && clicked === true) {
+
+            $(this).find('.send-request-button').data('disabled', 'disabled');
+
+            var form = $(this), data = form.serialize();
+            $.ajax({
+                url: '/contact/send-request',
+                type: 'POST',
+                data: data,
+                success: function(res){
+                    form.parent().css('display', 'none');
+                    form.parent().parent().find('.good-result').css('display', 'flex');
+                },
+                error: function(){
+                    form.parent().css('display', 'none');
+                    form.parent().parent().find('.bad-result').css('display', 'flex');
+                }
+            });
+        } else {
+            clicked = false;
+        }
+
+        return false;
+    });
+
+    $('.request-form').on('beforeSubmit', function(e) {
+        e.preventDefault();
+        return false;
+    });
+
+    $('.request-form').on('submit', function(e) {
+        e.preventDefault();
+        return false;
+    });
+});
